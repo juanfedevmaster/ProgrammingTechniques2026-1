@@ -27,7 +27,7 @@ public class FirstProject {
         
         Persona persona = new Persona(nombre, apellido, cedula);
 
-        System.out.println("Nombre de la persona: "+persona.nombre);
+        System.out.println("Nombre de la persona: "+persona.getName()+ " " +persona.getLastName());
                    
     }
 }
