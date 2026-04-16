@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Felipe",
+    "lastName": "Quintana",
+    "age": 40
+  },
+  {
+    "id": 2,
+    "name": "Laura",
+    "lastName": "Quintana",
+    "age": 36
+  },
+  {
+    "id": 4,
+    "name": "Camilo",
+    "lastName": "Gómez",
+    "age": 46
+  },
+  {
+    "id": 5,
+    "name": "Sara",
+    "lastName": "Guitierrez",
+    "age": 32
+  }
+]

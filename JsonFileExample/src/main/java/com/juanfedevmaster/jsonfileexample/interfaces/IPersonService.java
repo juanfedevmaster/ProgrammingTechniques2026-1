@@ -8,4 +8,6 @@ public interface IPersonService {
     boolean saveListPeople(List<Person> peopleList) throws Exception;
     boolean savePerson(Person p);
     boolean find(Person p);
+    
+    boolean saveListPeopleJson(List<Person> peopleList) throws Exception;
 }

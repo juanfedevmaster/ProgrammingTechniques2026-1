@@ -8,5 +8,8 @@ public interface IPersonRepository {
     boolean saveListPeople(List<Person> peopleList);
     boolean savePerson(Person p);
     boolean find(Person p);
-    List<Person> getPeople();
+    List<Person> getPeople() throws Exception;
+    
+    boolean saveListPeopleJson(List<Person> peopleList);
+    List<Person> getPeopleJson() throws Exception;
 }

@@ -16,7 +16,6 @@ public class PersonService implements IPersonService {
 
     @Override
     public boolean saveListPeople(List<Person> peopleList) throws Exception {
-        // TODO Auto-generated method stub
         
         if(peopleList == null){
             throw new Exception("The people list is empty");
@@ -38,6 +37,17 @@ public class PersonService implements IPersonService {
     public boolean find(Person p) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'find'");
+    }
+
+    @Override
+    public boolean saveListPeopleJson(List<Person> peopleList) throws Exception {
+        if(peopleList == null){
+            throw new Exception("The people list is empty");
+        }
+        
+        var flag = personRepo.saveListPeopleJson(peopleList);
+
+        return true;
     }
 
 }
