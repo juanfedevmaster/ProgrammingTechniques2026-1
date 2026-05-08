@@ -18,4 +18,8 @@ public class ClienteServicio {
     public List<Cliente> getAllClientes() {
         return this.clienteRepo.findAll();
     }
+
+    public Cliente getById(String cedula){
+        return this.clienteRepo.findById(cedula).orElse(null);
+    }
 }
